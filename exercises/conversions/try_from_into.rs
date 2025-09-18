@@ -231,4 +231,5 @@ mod tests {
         let v = vec![0, 0];
         assert_eq!(Color::try_from(&v[..]), Err(IntoColorError::BadLen));
     }
+    
 }
